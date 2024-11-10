@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: #fff;
+  text-align: center;
+  padding: 2em 1em;
+}
+.cta-button {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.cta-button:hover {
+  background-color: #e64a19;
+}
+
+#servicios {
+  background-color: #e0f7fa;
+  padding: 2em 1em;
+  text-align: center;
+}
+.servicio {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.servicio h3 {
+  color: #007acc;
+}
+
+#portafolio {
+  background-color: #fff3e0;
+  padding: 2em 1em;
+  text-align: center;
+}
+.proyecto {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.proyecto h3 {
+  color: #ff5722;
+}
+
+#testimonios {
+  background-color: #e8f5e9;
+  padding: 2em 1em;
+  text-align: center;
+}
+blockquote {
+  font-style: italic;
+  color: #388e3c;
+  border-left: 5px solid #66bb6a;
+  padding-left: 1em;
+  margin: 1em auto;
+  max-width: 600px;
+}
+
+#blog {
+  background-color: #f3e5f5;
+  padding: 2em 1em;
+  text-align: center;
+}
+article {
+  display: inline-block;
+  width: 45%;
+  margin: 1em;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+article h3 {
+  color: #7b1fa2;
+}
+
+#contacto {
+  background-color: #e0f2f1;
+  padding: 2em 1em;
+  text-align: center;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #00796b;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+button {
+  background-color: #00796b;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #004d40;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+footer a {
+  color: #ff5722;
+  text-decoration: none;
+}
